@@ -135,6 +135,8 @@ $(document).ready(function(){
 		}else if($('#angle').attr('data-state')=='1') {
 			$('#angle').attr('data-state', '0');
 			$('#angle').attr('class', 'fa fa-angle-double-left');
+			$('#iconActiva').removeClass();
+			$('#iconActiva').addClass('icon-activalab');
 		}
 	});
 });
